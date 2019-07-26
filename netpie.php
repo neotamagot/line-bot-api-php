@@ -19,7 +19,10 @@
 		else if($msg =="56"){
 			$msg = "1";
 		}
-		else{
+		else if{$msg =="Detected")
+		{
+			$msg = "1";
+		}else{
 			//
 		}
 		put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
