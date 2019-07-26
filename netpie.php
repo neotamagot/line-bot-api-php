@@ -19,7 +19,7 @@
 		else if($msg =="56"){
 			$msg = "1";
 		}
-		else if{$msg =="Detected")
+		else if{$msg =="IFTTT: Detected")
 		{
 			$msg = "1";
 		}else{
